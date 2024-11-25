@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 interface ProjectListProps {
     projects: Project[];
-    selectedProject: string
+    selectedProject?: string
 }
 
 export default function ProjectList({ projects, selectedProject }: ProjectListProps) {
