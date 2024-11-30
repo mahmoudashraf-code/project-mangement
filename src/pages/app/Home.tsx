@@ -18,6 +18,7 @@ const TasksChart: React.FC = () => {
             <p className="text-2xl text-gray-500">Select a project to view tasks</p>
           </div>
         )}
+        <div className='h-[16rem]'></div>
       </main>
     </div>
   );
